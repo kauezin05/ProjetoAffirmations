@@ -4,7 +4,6 @@ import com.example.affirmations.R
 import com.example.affirmations.model.Affirmation
 
 class Datasource {
-
     fun loadAffirmations(): List<Affirmation> {
         return listOf<Affirmation>(
             Affirmation(R.string.affirmation1),
@@ -19,4 +18,4 @@ class Datasource {
             Affirmation(R.string.affirmation10)
         )
     }
-}
+} 
